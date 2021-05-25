@@ -7,11 +7,13 @@ function App() {
   const [tasks, setTasks] = useState([
     {
       text: 'asdfasdafsd',
-      id: 1
+      id: 1,
+      day: 'blah'
     },
     {
       text: 'asdfasfdsafdsa',
-      id: 2
+      id: 2,
+      day: 'blah'
     }
   ])
 
