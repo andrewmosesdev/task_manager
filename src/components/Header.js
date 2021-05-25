@@ -1,10 +1,16 @@
 
-const Header = () => {
+const Header = (props) => {
+
     return (
-        <header>
-            <h1>Yeet Manager</h1>
+        <header className='header'>
+            <h1>{props.title}</h1>
+            <button className='btn'>Add</button>
         </header>
     )
+}
+
+Header.defaultProps = {
+    title: 'Task Manager'
 }
 
 export default Header
